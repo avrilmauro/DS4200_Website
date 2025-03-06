@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.custom-header {
+  color: #f4f4f4;
+}
+
+header {
+  background-color: #895159;
+  font-family: Playfair Display, serif;
+  font-weight: normal;
+  font-size: x-large;
+  padding: 2px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main content layout */
+.main-content {
+  display: flex;
+  align-items: center; /* Vertically align the items */
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+/* Style the image container */
+.image-container img {
+  width: 300px; /* Adjust width of the image */
+  height: auto;
+  margin-right: 20px; /* Space between the image and the text */
+}
+
+/* Style for the text container */
+.text-container {
+  max-width: 500px; /* Set a maximum width for the text container */
+  margin-right: 20px;
+}
+
+/* Subheader style */
+.subheader {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px; /* Space between subheader and paragraph */
+}
+
+/* Body text style */
+.body-text {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #555;
+  margin-right:20;
+}
